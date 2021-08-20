@@ -1,7 +1,7 @@
 /**
  * No se debe modificar
  */
-package utp.misiontic2022.c2.p47.reto4.util;
+package utp.misiontic2022.c2.p47.reto5.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

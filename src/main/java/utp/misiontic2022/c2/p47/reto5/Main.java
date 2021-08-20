@@ -1,14 +1,14 @@
-package utp.misiontic2022.c2.p47.reto4;
+package utp.misiontic2022.c2.p47.reto5;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import utp.misiontic2022.c2.p47.reto4.controlador.ControladorRequerimientos;
-import utp.misiontic2022.c2.p47.reto4.modelo.vo.Requerimiento_1;
-import utp.misiontic2022.c2.p47.reto4.modelo.vo.Requerimiento_2;
-import utp.misiontic2022.c2.p47.reto4.modelo.vo.Requerimiento_3;
-import utp.misiontic2022.c2.p47.reto4.vista.ModeloDatos;
+import utp.misiontic2022.c2.p47.reto5.controlador.ControladorRequerimientos;
+import utp.misiontic2022.c2.p47.reto5.modelo.vo.Requerimiento_1;
+import utp.misiontic2022.c2.p47.reto5.modelo.vo.Requerimiento_2;
+import utp.misiontic2022.c2.p47.reto5.modelo.vo.Requerimiento_3;
+import utp.misiontic2022.c2.p47.reto5.vista.ModeloDatos;
 
 public class Main {
     public static final ControladorRequerimientos controlador = new ControladorRequerimientos();
@@ -19,7 +19,7 @@ public class Main {
         do{
         opt = Integer.parseInt(JOptionPane.showInputDialog(
                 "Enter a option:\n" + "1. Requerimiento 1\n" + "2. Requerimiento 2\n" 
-                + "3. Requerimiento 3\n" + "4.   Salir"));
+                + "3. Requerimiento 3\n" + "4. Salir"));
         switch (opt) {
             case 1:
                 try {
@@ -77,4 +77,4 @@ public class Main {
     }
 }
 
-}
+

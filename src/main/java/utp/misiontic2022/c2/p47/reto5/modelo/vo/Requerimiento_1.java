@@ -1,4 +1,4 @@
-package utp.misiontic2022.c2.p47.reto4.modelo.vo;
+package utp.misiontic2022.c2.p47.reto5.modelo.vo;
 
 public class Requerimiento_1 {
     private int ID_MaterialConstruccion;

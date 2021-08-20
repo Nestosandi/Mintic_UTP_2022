@@ -1,13 +1,13 @@
-package utp.misiontic2022.c2.p47.reto4.controlador;
+package utp.misiontic2022.c2.p47.reto5.controlador;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
-import utp.misiontic2022.c2.p47.reto4.modelo.dao.Requerimiento_1Dao;
-import utp.misiontic2022.c2.p47.reto4.modelo.dao.Requerimiento_2Dao;
-import utp.misiontic2022.c2.p47.reto4.modelo.dao.Requerimiento_3Dao;
-import utp.misiontic2022.c2.p47.reto4.modelo.vo.Requerimiento_1;
-import utp.misiontic2022.c2.p47.reto4.modelo.vo.Requerimiento_2;
-import utp.misiontic2022.c2.p47.reto4.modelo.vo.Requerimiento_3;
+import utp.misiontic2022.c2.p47.reto5.modelo.dao.Requerimiento_1Dao;
+import utp.misiontic2022.c2.p47.reto5.modelo.dao.Requerimiento_2Dao;
+import utp.misiontic2022.c2.p47.reto5.modelo.dao.Requerimiento_3Dao;
+import utp.misiontic2022.c2.p47.reto5.modelo.vo.Requerimiento_1;
+import utp.misiontic2022.c2.p47.reto5.modelo.vo.Requerimiento_2;
+import utp.misiontic2022.c2.p47.reto5.modelo.vo.Requerimiento_3;
 
 public class ControladorRequerimientos {
     Requerimiento_1Dao dao1 = new Requerimiento_1Dao();

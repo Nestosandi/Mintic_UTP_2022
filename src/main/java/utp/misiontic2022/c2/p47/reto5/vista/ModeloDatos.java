@@ -1,4 +1,4 @@
-package utp.misiontic2022.c2.p47.reto4.vista;
+package utp.misiontic2022.c2.p47.reto5.vista;
 
 import javax.swing.table.AbstractTableModel;
 
