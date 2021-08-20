@@ -4,6 +4,7 @@ public class Requerimiento_2 {
 
     private int ID_MaterialConstruccion;
     private double avgPrecio_Unidad;
+    
 
     public int getID_MaterialConstruccion() {
         return ID_MaterialConstruccion;

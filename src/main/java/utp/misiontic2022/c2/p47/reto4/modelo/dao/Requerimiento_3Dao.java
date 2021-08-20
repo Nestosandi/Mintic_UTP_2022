@@ -16,7 +16,7 @@ public class Requerimiento_3Dao {
         try {
             Conexion = JDBCUtilities.getConnection();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
+            
             e.printStackTrace();
         }
     }

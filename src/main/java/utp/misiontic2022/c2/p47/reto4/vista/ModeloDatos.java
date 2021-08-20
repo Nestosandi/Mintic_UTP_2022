@@ -16,12 +16,10 @@ public class ModeloDatos extends AbstractTableModel {
             }
         });
     }
-
     @Override
     public int getRowCount() {
         return datos.length;
     }
-
     @Override
     public int getColumnCount() {
         return datos[0].length;

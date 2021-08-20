@@ -2,7 +2,6 @@ package utp.misiontic2022.c2.p47.reto4.controlador;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
-
 import utp.misiontic2022.c2.p47.reto4.modelo.dao.Requerimiento_1Dao;
 import utp.misiontic2022.c2.p47.reto4.modelo.dao.Requerimiento_2Dao;
 import utp.misiontic2022.c2.p47.reto4.modelo.dao.Requerimiento_3Dao;

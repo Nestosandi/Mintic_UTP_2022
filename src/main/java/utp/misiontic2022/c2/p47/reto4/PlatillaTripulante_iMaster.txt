@@ -21,7 +21,6 @@ class JDBCUtilities {
         return DriverManager.getConnection(url);
     }
 }
-
 // Remplace en adelante por las clases de sus archivos .java
 
 // Vista

@@ -4,6 +4,9 @@ public class Requerimiento_3 {
     private String Nombre_Material;
     private String Importado;
 
+    public Requerimiento_3() {
+    }
+
     public String getNombre_Material() {
         return Nombre_Material;
     }

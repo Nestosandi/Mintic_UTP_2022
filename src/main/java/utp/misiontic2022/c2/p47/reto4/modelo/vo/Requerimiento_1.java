@@ -4,7 +4,6 @@ public class Requerimiento_1 {
     private int ID_MaterialConstruccion;
     private String Nombre_Material;
     private int Precio_Unidad;
-    private String Importado;
 
     public int getID_MaterialConstruccion() {
         return ID_MaterialConstruccion;
@@ -28,14 +27,6 @@ public class Requerimiento_1 {
 
     public void setPrecio_Unidad(int precio_Unidad) {
         Precio_Unidad = precio_Unidad;
-    }
-
-    public String getImportado() {
-        return Importado;
-    }
-
-    public void setImportado(String importado) {
-        Importado = importado;
     }
 
 }
